@@ -38,7 +38,8 @@ body {
 }
 
 .bottom-container {
-  background-color: #fefecc;
+  background-color: #f3bda1;
+
 }
 
 .topcloud {
@@ -72,4 +73,48 @@ body {
   width: 25%;
   float: right;
   margin-left: 20px;
+}
+.footer-link{
+  margin:30px;
+  padding-top: 20px;
+}
+.footertm{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+.BUTTON_BAI {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   width: 131px;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 16px;
+   background-color: #F3BDA1;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.BUTTON_BAI:hover {
+   border: solid #337FED 1px;
+   background: #F4EEE8;
+   background-image: -webkit-linear-gradient(top, #F4EEE8, #F4EEE8);
+   background-image: -moz-linear-gradient(top, #F4EEE8, #F4EEE8);
+   background-image: -ms-linear-gradient(top, #F4EEE8, #F4EEE8);
+   background-image: -o-linear-gradient(top, #F4EEE8, #F4EEE8);
+   background-image: -webkit-gradient(to bottom, #F4EEE8, #F4EEE8);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
